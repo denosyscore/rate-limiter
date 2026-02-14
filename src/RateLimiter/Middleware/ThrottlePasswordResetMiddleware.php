@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CFXP\Core\RateLimiter\Middleware;
+namespace Denosys\RateLimiter\Middleware;
 
-use CFXP\Core\Http\Middleware\ThrottleRequestsMiddleware;
-use CFXP\Core\RateLimiter\RateLimiter;
+use Denosys\Http\Middleware\ThrottleRequestsMiddleware;
+use Denosys\RateLimiter\RateLimiter;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CFXP\Core\RateLimiter;
+namespace Denosys\RateLimiter;
 
-use CFXP\Core\Cache\CacheInterface;
+use Denosys\Cache\CacheInterface;
 
 class RateLimiter
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace CFXP\Core\RateLimiter;
+namespace Denosys\RateLimiter;
 
-use CFXP\Core\Cache\CacheInterface;
-use CFXP\Core\Container\ContainerInterface;
-use CFXP\Core\Http\Middleware\ThrottleRequestsMiddleware;
-use CFXP\Core\RateLimiter\Middleware\ThrottleLoginMiddleware;
-use CFXP\Core\RateLimiter\Middleware\ThrottleRegisterMiddleware;
-use CFXP\Core\RateLimiter\Middleware\ThrottlePasswordResetMiddleware;
-use CFXP\Core\ServiceProviderInterface;
+use Denosys\Cache\CacheInterface;
+use Denosys\Container\ContainerInterface;
+use Denosys\Http\Middleware\ThrottleRequestsMiddleware;
+use Denosys\RateLimiter\Middleware\ThrottleLoginMiddleware;
+use Denosys\RateLimiter\Middleware\ThrottleRegisterMiddleware;
+use Denosys\RateLimiter\Middleware\ThrottlePasswordResetMiddleware;
+use Denosys\Contracts\ServiceProviderInterface;
 use Psr\EventDispatcher\EventDispatcherInterface;
 
 class RateLimiterServiceProvider implements ServiceProviderInterface

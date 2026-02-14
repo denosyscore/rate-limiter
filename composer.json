@@ -5,12 +5,12 @@
   "license": "MIT",
   "require": {
     "php": "^8.2",
-    "denosyscore/contracts": "^0.1",
-    "denosyscore/cache": "^0.1"
+    "denosyscore/contracts": "^0.2",
+    "denosyscore/cache": "^0.2"
   },
   "autoload": {
     "psr-4": {
-      "CFXP\\Core\\": "src/"
+      "Denosys\\\\RateLimiter\\\\": "src/RateLimiter/"
     }
   },
   "config": {
