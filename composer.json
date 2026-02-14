@@ -1,0 +1,19 @@
+{
+  "name": "denosyscore/rate-limiter",
+  "description": "Rate limiting services and middleware",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "denosyscore/contracts": "^0.1",
+    "denosyscore/cache": "^0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "CFXP\\Core\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
