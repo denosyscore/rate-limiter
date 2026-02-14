@@ -10,7 +10,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Denosys\\\\RateLimiter\\\\": "src/RateLimiter/"
+      "Denosys\\RateLimiter\\": "src/RateLimiter/"
     }
   },
   "config": {
